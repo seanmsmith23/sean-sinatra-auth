@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>PAGE TITLE HERE</title>
+
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+
+  <link href="/style_sheet.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+<div class="wrapper">
+  <div id="bumper">
+    <h1 class="center">Register Below</h1>
+    <p class="flash"><%= thanks_flash %></p>
+  </div>
+
+  <section class="clearfix">
+
+
+    <article class="one_fourth">
+    </article>
+
+    <article class="one_half">
+      <form action="/registration" method="post">
+        <label for="username" id="username_label">Username</label>
+        <input type="text" name="username" id="username_form">
+        <label for="password" id="password_label">Password</label>
+        <input type="text" name="password" id="password_form">
+        <button id="signup_button">Sign Up</button>
+      </form>
+    </article>
+
+    <article class="one_fourth">
+    </article>
+
+  </section>
+</div>
+
+</body>
+
+</html>
